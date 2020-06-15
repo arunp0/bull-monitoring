@@ -1,7 +1,7 @@
 {
   "name": "bull-monitoring",
   "description": "Bull queue UI for inspecting jobs",
-  "version": "1.0.0-alpha.8",
+  "version": "1.0.0",
   "keywords": [
     "bull",
     "redis",
