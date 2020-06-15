@@ -45,8 +45,8 @@ const formatJob = (job: Job | JobMq): app.AppJob => {
   return {
     id: jobProps.id,
     timestamp: jobProps.timestamp,
-    processedOn: jobProps.processedOn,
-    finishedOn: jobProps.finishedOn,
+    processedOn: jobProps.processedOn as number,
+    finishedOn: jobProps.finishedOn as number,
     progress: jobProps.progress,
     attempts: jobProps.attemptsMade,
     delay: job.opts.delay,
@@ -71,7 +71,7 @@ const getDataForQueues = async (
   bullBoardQueues: app.BullBoardQueues,
   req: Request,
 ): Promise<api.GetQueues> => {
-  const query = req.query || {}
+  const query: any = req.query || { name: 'latest' }
   const pairs = Object.entries(bullBoardQueues)
 
   if (pairs.length == 0) {
