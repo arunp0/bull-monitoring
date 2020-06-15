@@ -9,12 +9,12 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'bull-board', // Title for your website.
+  title: 'bull-monitoring', // Title for your website.
   tagline: 'Bull queue UI for inspecting jobs',
-  url: 'https://vcapretz.github.io', // Your website URL
-  baseUrl: '/bull-board/', // Base URL for your project */
+  url: 'https://arunp0.github.io', // Your website URL
+  baseUrl: '/bull-monitoring/', // Base URL for your project */
   organizationName: 'vcapretz',
-  projectName: 'bull-board',
+  projectName: 'bull-monitoring',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [{ doc: 'introduction', label: 'Docs' }],
@@ -58,7 +58,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/vcapretz/bull-board',
+  repoUrl: 'https://github.com/arunp0/bull-monitoring',
 }
 
 module.exports = siteConfig

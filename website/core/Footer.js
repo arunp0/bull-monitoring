@@ -43,12 +43,12 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <a href="https://github.com/vcapretz/bull-board">GitHub</a>
+            <a href="https://github.com/arunp0/bull-monitoring">GitHub</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
               data-icon="octicon-star"
-              data-count-href="/vcapretz/bull-board"
+              data-count-href="/arunp0/bull-monitoring"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub"
@@ -60,31 +60,31 @@ class Footer extends React.Component {
           <div style={styles.badgeWrapper}>
             <img
               alt="licence"
-              src="https://github.com/vcapretz/bull-board/workflows/Node%20CI/badge.svg"
+              src="https://github.com/arunp0/bull-monitoring/workflows/Node%20CI/badge.svg"
             />
 
-            <a href="https://www.npmjs.com/package/bull-board">
+            <a href="https://www.npmjs.com/package/bull-monitoring">
               <img
                 alt="npm downloads"
-                src="https://img.shields.io/npm/dm/bull-board.svg"
+                src="https://img.shields.io/npm/dm/bull-monitoring.svg"
               />
             </a>
 
-            <a href="https://github.com/vcapretz/bull-board/blob/master/LICENSE">
+            <a href="https://github.com/arunp0/bull-monitoring/blob/master/LICENSE">
               <img
                 alt="licence"
-                src="https://img.shields.io/npm/l/bull-board.svg"
+                src="https://img.shields.io/npm/l/bull-monitoring.svg"
               />
             </a>
 
-            <a href="https://www.npmjs.com/package/bull-board?activeTab=versions">
-              <img alt="npm" src="https://img.shields.io/npm/v/bull-board" />
+            <a href="https://www.npmjs.com/package/bull-monitoring?activeTab=versions">
+              <img alt="npm" src="https://img.shields.io/npm/v/bull-monitoring" />
             </a>
 
-            <a href="https://snyk.io/test/github/vcapretz/bull-board">
+            <a href="https://snyk.io/test/github/arunp0/bull-monitoring">
               <img
                 alt="snyk"
-                src="https://snyk.io/test/github/vcapretz/bull-board/badge.svg"
+                src="https://snyk.io/test/github/arunp0/bull-monitoring/badge.svg"
               />
             </a>
           </div>

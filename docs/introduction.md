@@ -9,18 +9,18 @@ sidebar_label: Introduction
 Start by installing the library in your project:
 
 ```sh
-yarn add bull-board
-# npm i bull-board
+yarn add bull-monitoring
+# npm i bull-monitoring
 ```
 
 ## Hello World
 
-The first step is to pass bull-board your Bull queues via the `setQueues` method.
+The first step is to pass bull-monitoring your Bull queues via the `setQueues` method.
 
 ```ts
 import Queue from 'bull'
 // import { Queue } from 'bullmq'
-import { setQueues } from 'bull-board'
+import { setQueues } from 'bull-monitoring'
 
 const someQueue = new Queue()
 const someOtherQueue = new Queue()
@@ -28,11 +28,11 @@ const someOtherQueue = new Queue()
 setQueues([someQueue, someOtherQueue])
 ```
 
-You can then add bull-board's `router` to your express routes. It is recommended to protect this endpoint via some sort of authentication, so consider placing it on an already protected admin route:
+You can then add bull-monitoring's `router` to your express routes. It is recommended to protect this endpoint via some sort of authentication, so consider placing it on an already protected admin route:
 
 ```ts
 import express from 'express'
-import { router } from 'bull-board'
+import { router } from 'bull-monitoring'
 
 const app = express()
 

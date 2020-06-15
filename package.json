@@ -1,5 +1,5 @@
 {
-  "name": "bull-board",
+  "name": "bull-monitoring",
   "description": "Bull queue UI for inspecting jobs",
   "version": "1.0.0-alpha.8",
   "keywords": [
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vcapretz/bull-board.git"
+    "url": "https://github.com/arunp0/bull-monitoring.git"
   },
   "bugs": {
-    "url": "https://github.com/vcapretz/bull-board/issues"
+    "url": "https://github.com/arunp0/bull-monitoring/issues"
   },
   "files": [
     "dist/**/*",
